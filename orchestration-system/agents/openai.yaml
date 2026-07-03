@@ -1,0 +1,4 @@
+interface:
+  display_name: "Orchestration System"
+  short_description: "Plan and coordinate multi-agent work"
+  default_prompt: "Use $orchestration-system to plan and coordinate a complex engineering task."

@@ -1,0 +1,34 @@
+{
+  "objective": "Implement a settings page with tests",
+  "assumptions": ["The current repository conventions are authoritative"],
+  "workstreams": [
+    {
+      "id": "map-ui",
+      "role": "mapper",
+      "task": "Inspect existing settings and routing patterns",
+      "inputs": ["src/routes", "src/components"],
+      "outputs": ["file map", "implementation notes"],
+      "status": "pending"
+    },
+    {
+      "id": "build-page",
+      "role": "builder",
+      "task": "Implement the settings page after mapping is complete",
+      "inputs": ["file map", "implementation notes"],
+      "outputs": ["patch", "test notes"],
+      "status": "pending"
+    }
+  ],
+  "dependencies": [
+    {
+      "before": "map-ui",
+      "after": "build-page",
+      "reason": "Implementation depends on the existing UI pattern map"
+    }
+  ],
+  "artifacts": ["patch", "test log", "final summary"],
+  "validation": ["npm test", "npm run lint"],
+  "risks": ["Settings state may share behavior with profile flows"],
+  "integration": "Use mapper findings to constrain implementation, then run validation after the patch.",
+  "stop_conditions": ["Missing dependency installation approval", "Required destructive migration"]
+}
