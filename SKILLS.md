@@ -156,6 +156,7 @@
 - shadcn
 - skill-creator
 - skill-installer
+- skill-publisher
 - speech
 - spreadsheets:Spreadsheets
 - stitch-design-taste

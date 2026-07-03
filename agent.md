@@ -2,7 +2,7 @@
 
 ## Repository Purpose
 
-Maintain the `orchestration-system` Codex skill. The repository is intentionally small: keep the skill package focused, readable, and easy to install or copy.
+Maintain the Codex skills in this repository. The repository is intentionally small: keep each skill package focused, readable, and easy to install or copy.
 
 ## Structure
 
@@ -10,6 +10,8 @@ Maintain the `orchestration-system` Codex skill. The repository is intentionally
 - `orchestration-system/references/patterns.md` - detailed orchestration patterns and templates.
 - `orchestration-system/examples/valid-plan.json` - sample machine-checkable orchestration plan.
 - `orchestration-system/scripts/validate_orchestration_plan.py` - JSON plan validator.
+- `skill-publisher/SKILL.md` - skill publication workflow.
+- `skill-publisher/scripts/validate_skill_repo.py` - repository readiness validator.
 - `SKILLS.md` - list of skill names from the creation environment.
 
 ## Editing Rules
@@ -25,6 +27,7 @@ Maintain the `orchestration-system` Codex skill. The repository is intentionally
 Run the validator after changing the plan schema, example plan, or validation script:
 
 ```powershell
+python skill-publisher\scripts\validate_skill_repo.py .
 python orchestration-system\scripts\validate_orchestration_plan.py orchestration-system\examples\valid-plan.json
 ```
 
@@ -32,6 +35,7 @@ For Python syntax checks:
 
 ```powershell
 python -m py_compile orchestration-system\scripts\validate_orchestration_plan.py
+python -m py_compile skill-publisher\scripts\validate_skill_repo.py
 ```
 
 ## Release Checklist

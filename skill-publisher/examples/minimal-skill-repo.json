@@ -1,0 +1,28 @@
+{
+  "repository": "owner/repo",
+  "branch": "master",
+  "skills": [
+    {
+      "name": "example-skill",
+      "path": "example-skill",
+      "required_files": [
+        "example-skill/SKILL.md",
+        "example-skill/agents/openai.yaml"
+      ],
+      "validation": [
+        "python example-skill/scripts/validate_example.py"
+      ]
+    }
+  ],
+  "root_files": [
+    "README.md",
+    "SKILLS.md",
+    "agent.md"
+  ],
+  "publish_steps": [
+    "validate",
+    "commit",
+    "push",
+    "verify_remote"
+  ]
+}

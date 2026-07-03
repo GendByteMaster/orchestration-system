@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Publisher"
+  short_description: "Prepare and publish Codex skills"
+  default_prompt: "Use $skill-publisher to prepare a Codex skill repository for publication."
