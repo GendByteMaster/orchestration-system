@@ -12,6 +12,7 @@ Maintain the Codex skills in this repository. The repository is intentionally sm
 - `orchestration-system/scripts/validate_orchestration_plan.py` - JSON plan validator.
 - `skill-publisher/SKILL.md` - skill publication workflow.
 - `skill-publisher/scripts/validate_skill_repo.py` - repository readiness validator.
+- `skill-publisher/scripts/update_skill_index.py` - generated skills catalog updater.
 - `SKILLS.md` - list of skill names from the creation environment.
 
 ## Editing Rules
@@ -28,6 +29,7 @@ Run the validator after changing the plan schema, example plan, or validation sc
 
 ```powershell
 python skill-publisher\scripts\validate_skill_repo.py .
+python skill-publisher\scripts\update_skill_index.py --check
 python orchestration-system\scripts\validate_orchestration_plan.py orchestration-system\examples\valid-plan.json
 ```
 
@@ -35,7 +37,7 @@ For Python syntax checks:
 
 ```powershell
 python -m py_compile orchestration-system\scripts\validate_orchestration_plan.py
-python -m py_compile skill-publisher\scripts\validate_skill_repo.py
+python -m py_compile skill-publisher\scripts\validate_skill_repo.py skill-publisher\scripts\update_skill_index.py
 ```
 
 ## Release Checklist

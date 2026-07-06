@@ -94,3 +94,4 @@ Update an existing skill in place when:
 - `references/repository-layout.md` - recommended structure, root files, and release checklist.
 - `examples/minimal-skill-repo.json` - example manifest for a minimal skill repository.
 - `scripts/validate_skill_repo.py` - validate a repository containing one or more Codex skills.
+- `scripts/update_skill_index.py` - regenerate `SKILLS.md` from local skill roots.

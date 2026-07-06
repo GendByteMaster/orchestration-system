@@ -1,237 +1,275 @@
-# Skill Names
+# Skills Catalog
 
-- Skill Development
-- agent-development
-- attack-path-analysis
-- browser:control-in-app-browser
-- codex-security:attack-path-analysis
-- codex-security:deep-security-scan
-- codex-security:finding-discovery
-- codex-security:fix-finding
-- codex-security:security-diff-scan
-- codex-security:security-scan
-- codex-security:threat-model
-- codex-security:track-findings
-- codex-security:triage-finding
-- codex-security:validation
-- computer-use:computer-use
-- creative-production:ads-explorer
-- creative-production:explore
-- creative-production:generative-polish
-- creative-production:logo-explorer
-- creative-production:moodboard-explorer
-- creative-production:offer-explorer
-- creative-production:positioning-explorer
-- creative-production:scene-explorer
-- creative-production:shot-explorer
-- data-analytics:analyze-data-quality
-- data-analytics:build-dashboard
-- data-analytics:build-report
-- data-analytics:create-data-context
-- data-analytics:design-kpis
-- data-analytics:gather-business-context
-- data-analytics:index
-- data-analytics:jupyter-notebooks
-- data-analytics:kpi-reporting
-- data-analytics:market-sizing
-- data-analytics:metric-diagnostics
-- data-analytics:product-business-analysis
-- data-analytics:validate-data
-- data-analytics:visualize-data
-- design-studio
-- design-system
-- design-taste-frontend
-- documents:documents
-- find-skills
-- fix
-- flutter-development
-- frontend-design
-- frontend-patterns
-- frontend-skill
-- full-output-enforcement
-- gh-fix-ci
-- github
-- github:gh-address-comments
-- github:gh-fix-ci
-- github:github
-- github:yeet
-- gpt-taste
-- graphify
-- gsd-add-tests
-- gsd-ai-integration-phase
-- gsd-audit-fix
-- gsd-audit-milestone
-- gsd-audit-uat
-- gsd-autonomous
-- gsd-capture
-- gsd-cleanup
-- gsd-code-review
-- gsd-complete-milestone
-- gsd-config
-- gsd-debug
-- gsd-discuss-phase
-- gsd-docs-update
-- gsd-eval-review
-- gsd-execute-phase
-- gsd-explore
-- gsd-extract-learnings
-- gsd-fast
-- gsd-forensics
-- gsd-graphify
-- gsd-health
-- gsd-help
-- gsd-import
-- gsd-inbox
-- gsd-ingest-docs
-- gsd-manager
-- gsd-map-codebase
-- gsd-milestone-summary
-- gsd-mvp-phase
-- gsd-new-milestone
-- gsd-new-project
-- gsd-ns-context
-- gsd-ns-ideate
-- gsd-ns-manage
-- gsd-ns-project
-- gsd-ns-review
-- gsd-ns-workflow
-- gsd-pause-work
-- gsd-phase
-- gsd-plan-phase
-- gsd-plan-review-convergence
-- gsd-pr-branch
-- gsd-profile-user
-- gsd-progress
-- gsd-quick
-- gsd-resume-work
-- gsd-review
-- gsd-review-backlog
-- gsd-secure-phase
-- gsd-settings
-- gsd-ship
-- gsd-sketch
-- gsd-spec-phase
-- gsd-spike
-- gsd-stats
-- gsd-surface
-- gsd-thread
-- gsd-ui-phase
-- gsd-ui-review
-- gsd-ultraplan-phase
-- gsd-undo
-- gsd-update
-- gsd-validate-phase
-- gsd-verify-work
-- gsd-workspace
-- gsd-workstreams
-- hatch-pet
-- high-end-visual-design
-- image-to-code
-- imagegen
-- imagegen-frontend-mobile
-- imagegen-frontend-web
-- industrial-brutalist-ui
-- linear:linear
-- minimalist-ui
-- notion:notion-knowledge-capture
-- notion:notion-meeting-intelligence
-- notion:notion-research-documentation
-- notion:notion-spec-to-implementation
-- openai-docs
-- orca-cli
+Generated from local `SKILL.md` frontmatter. Paths are normalized by source root so the catalog can be published without local absolute paths.
+
+## Repository Skills
+
 - orchestration-system
-- orchestration
-- pdf:pdf
-- plugin-creator
-- playwright-interactive
-- presentations:Presentations
-- product-design:audit
-- product-design:get-context
-- product-design:ideate
-- product-design:image-to-code
-- product-design:index
-- python-patterns
-- redesign-existing-projects
-- screenshot
-- shadcn
-- skill-creator
-- skill-installer
 - skill-publisher
-- speech
-- spreadsheets:Spreadsheets
-- stitch-design-taste
-- stripe:stripe-best-practices
-- stripe:upgrade-stripe
-- supabase-postgres-best-practices
-- superpowers:brainstorming
-- superpowers:dispatching-parallel-agents
-- superpowers:executing-plans
-- superpowers:finishing-a-development-branch
-- superpowers:receiving-code-review
-- superpowers:requesting-code-review
-- superpowers:subagent-driven-development
-- superpowers:systematic-debugging
-- superpowers:test-driven-development
-- superpowers:using-git-worktrees
-- superpowers:using-superpowers
-- superpowers:verification-before-completion
-- superpowers:writing-plans
-- superpowers:writing-skills
-- template-creator:template-creator
-- test-android-apps:android-emulator-qa
-- test-android-apps:android-performance
-- understand-anything:understand
-- understand-anything:understand-chat
-- understand-anything:understand-dashboard
-- understand-anything:understand-diff
-- understand-anything:understand-domain
-- understand-anything:understand-explain
-- understand-anything:understand-knowledge
-- understand-anything:understand-onboard
-- user-profile
-- vercel-deploy
-- vercel:agent-browser
-- vercel:agent-browser-verify
-- vercel:ai-elements
-- vercel:ai-gateway
-- vercel:ai-generation-persistence
-- vercel:bootstrap
-- vercel:chat-sdk
-- vercel:cms
-- vercel:cron-jobs
-- vercel:deployments-cicd
-- vercel:email
-- vercel:env-vars
-- vercel:geist
-- vercel:geistdocs
-- vercel:investigation-mode
-- vercel:json-render
-- vercel:marketplace
-- vercel:micro
-- vercel:ncc
-- vercel:next-forge
-- vercel:nextjs
-- vercel:observability
-- vercel:payments
-- vercel:react-best-practices
-- vercel:routing-middleware
-- vercel:runtime-cache
-- vercel:satori
-- vercel:shadcn
-- vercel:sign-in-with-vercel
-- vercel:swr
-- vercel:turbopack
-- vercel:turborepo
-- vercel:v0-dev
-- vercel:vercel-agent
-- vercel:vercel-api
-- vercel:vercel-cli
-- vercel:vercel-firewall
-- vercel:vercel-flags
-- vercel:vercel-functions
-- vercel:vercel-queues
-- vercel:vercel-sandbox
-- vercel:vercel-services
-- vercel:vercel-storage
-- vercel:verification
-- vercel:workflow
+
+## All Available Skills
+
+| Name | Source | Path | Description |
+| --- | --- | --- | --- |
+| ads-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/ads-explorer/SKILL.md` | Explore a supplied product, service, venue, or offer across a diverse 25-family image-ad prompt library. Use when the user wants Ads Explorer, ad directions, image ad prompts, paid social ideas, broad campaign ad exploration, or a review wall before final production. |
+| agent-browser | plugin-cache | `openai-curated/vercel/d6169bef/skills/agent-browser/SKILL.md` | Browser automation CLI for AI agents. Use when the user needs to interact with websites, verify dev server output, test web apps, navigate pages, fill forms, click buttons, take screenshots, extract data, or automate any browser task. Also triggers when a dev server starts so you can verify it visually. |
+| agent-browser-verify | plugin-cache | `openai-curated/vercel/d6169bef/skills/agent-browser-verify/SKILL.md` | Automated browser verification for dev servers. Triggers when a dev server starts to run a visual gut-check with agent-browser — verifies the page loads, checks for console errors, validates key UI elements, and reports pass/fail before continuing. |
+| ai-elements | plugin-cache | `openai-curated/vercel/d6169bef/skills/ai-elements/SKILL.md` | AI Elements component library guidance — pre-built React components for AI interfaces built on shadcn/ui. Use when building chat UIs, message displays, tool call rendering, streaming responses, reasoning panels, or any AI-native interface with the AI SDK. |
+| ai-gateway | plugin-cache | `openai-curated/vercel/d6169bef/skills/ai-gateway/SKILL.md` | Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API. |
+| ai-generation-persistence | plugin-cache | `openai-curated/vercel/d6169bef/skills/ai-generation-persistence/SKILL.md` | AI generation persistence patterns — unique IDs, addressable URLs, database storage, and cost tracking for every LLM generation |
+| ai-sdk | plugin-cache | `openai-curated/vercel/d6169bef/skills/ai-sdk/SKILL.md` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider. |
+| analyze-data-quality | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/analyze-data-quality/SKILL.md` | Assess whether structured data, query results, dashboards, or analytical evidence are trustworthy enough to use. Use when the task is to check data quality, reconcile conflicting sources or metric definitions, or decide whether evidence is safe to cite. |
+| android-emulator-qa | plugin-cache | `openai-curated/test-android-apps/d6169bef/skills/android-emulator-qa/SKILL.md` | Use when validating Android feature flows in an emulator with adb-driven launch, input, UI-tree inspection, screenshots, and logcat capture. |
+| android-performance | plugin-cache | `openai-curated/test-android-apps/d6169bef/skills/android-performance/SKILL.md` | Gather and interpret Android performance evidence on an adb target using Simpleperf CPU profiles, Perfetto or Compose traces, gfxinfo frame data, dumpsys meminfo snapshots, Java heap dumps, and native allocation traces. Use when asked to profile an Android app flow, find CPU-heavy functions, diagnose jank, capture startup or frame timing evidence, compare before/after performance, explain what code is taking time, or gather memory/leak profiling artifacts. |
+| attack-path-analysis | plugin-cache | `openai-curated/codex-security/d6169bef/skills/attack-path-analysis/SKILL.md` | Use when Codex is already in the attack-path-analysis phase of a security scan or the user explicitly asks to trace a security finding from source to sink and calibrate severity. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans. |
+| audit | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/audit/SKILL.md` | Audit or critique a product flow, journey, workflow, funnel, onboarding path, checkout path, settings path, screen, or multi-step product experience by capturing screenshots first, placing them in Figma or a local folder, then reporting UX, design, and accessibility findings from that evidence. Use when the user asks to audit, review, critique, inspect, assess, analyze, evaluate, or give feedback on a product experience. |
+| auth | plugin-cache | `openai-curated/vercel/d6169bef/skills/auth/SKILL.md` | Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications. Covers middleware auth patterns, sign-in/sign-up flows, and Marketplace provisioning. Use when implementing user authentication. |
+| bootstrap | plugin-cache | `openai-curated/vercel/d6169bef/skills/bootstrap/SKILL.md` | Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order. |
+| brainstorming | plugin-cache | `openai-curated/superpowers/d6169bef/skills/brainstorming/SKILL.md` | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. |
+| brandkit | agents-skills | `brandkit/SKILL.md` | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts. |
+| build-dashboard | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/build-dashboard/SKILL.md` | Build source-backed dashboards for monitoring performance, exploring drivers, or acting on product and business metrics. Use when the task needs a dashboard, scorecard, or monitoring view with clear metrics, filters, source definitions, and QA. |
+| build-report | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/build-report/SKILL.md` | Build polished analytical reports for executive, product, business, or technical audiences. Use when the task needs a durable answer-first narrative with evidence-backed findings, visuals or tables, caveats, and source context. |
+| chat-sdk | plugin-cache | `openai-curated/vercel/d6169bef/skills/chat-sdk/SKILL.md` | Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Chat class, adapters, threads, messages, cards, modals, streaming, state management, and webhook setup. |
+| cms | plugin-cache | `openai-curated/vercel/d6169bef/skills/cms/SKILL.md` | Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation webhooks, and Visual Editing. Use when building content-driven sites with a headless CMS on Vercel. |
+| computer-use | plugin-cache | `openai-bundled/computer-use/26.623.101652/skills/computer-use/SKILL.md` | Control Windows apps from Codex |
+| control-chrome | plugin-cache | `openai-bundled/chrome/latest/skills/control-chrome/SKILL.md` | Control the user's Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available. |
+| control-in-app-browser | plugin-cache | `openai-bundled/browser/26.623.101652/skills/control-in-app-browser/SKILL.md` | Control the in-app Browser. Use to open, navigate, inspect, test, click, type, screenshot, or verify local targets such as localhost, 127.0.0.1, ::1, file://, the current in-app browser tab, and websites shown side by side inside Codex. |
+| create-data-context | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/create-data-context/SKILL.md` | Create, update, inspect, or repair Data Analytics semantic layers. Use when the user asks to save data context or create a semantic layer that future Data Analytics work can inspect and cite. |
+| cron-jobs | plugin-cache | `openai-curated/vercel/d6169bef/skills/cron-jobs/SKILL.md` | Vercel Cron Jobs configuration and best practices. Use when adding, editing, or debugging scheduled tasks in vercel.json. |
+| deep-security-scan | plugin-cache | `openai-curated/codex-security/d6169bef/skills/deep-security-scan/SKILL.md` | Use when the user asks for a deep, exhaustive, multi-pass, or variance-reducing repository-wide or scoped-path Codex Security scan. Run repeated independent discovery passes over one resolved scope with worker-specific threat models, semantically merge candidates, synthesize one canonical validation threat model, then run validation, attack-path analysis, canonical JSON completion, and generated reporting once. Do not use for PRs, commits, branch diffs, or working-tree diffs. |
+| deployments-cicd | plugin-cache | `openai-curated/vercel/d6169bef/skills/deployments-cicd/SKILL.md` | Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, building with --prebuilt, or configuring CI workflow files for Vercel. |
+| design-kpis | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/design-kpis/SKILL.md` | Design KPI frameworks, metric definitions, targets, guardrails, and measurement plans for product or business decisions. Use when success metrics, drivers, guardrails, targets, or the measurement approach need to be defined or improved. |
+| design-qa | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/design-qa/SKILL.md` | Internal prototype QA helper. Use only after a Product Design prototype, URL-to-code build, or image-to-code build has a source visual target and a rendered implementation to compare before handoff. Do not use for broad UX critique, design critique, product audits, or flow reviews; route those user-facing requests to audit. |
+| design-studio | codex-skills | `design-studio/SKILL.md` | Apple Human Interface Guidelines-aligned visual design for product interfaces and supporting brand assets. Use when Codex needs to create or refine Apple-style or Apple-platform-aligned screens, landing pages, app flows, dashboards, empty states, icons, app icons, favicons, wordmarks, or brand systems. Trigger for requests like "make this feel like iOS", "redesign this screen with Apple HIG", "make it more native", "give this a macOS feel", "refresh the UI", or any task where design quality should follow Apple Human Interface Guidelines rather than generic visual trends. |
+| design-system | codex-skills | `design-system/SKILL.md` | アクセシビリティ、レスポンシブネス、テーマ設定、コンポーネント群、トークンを備えた本番環境対応デザインシステムの構築。Figma、Storybook、コンポーネントライブラリ統合。 |
+| design-taste-frontend | agents-skills | `design-taste-frontend/SKILL.md` | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering. |
+| dispatching-parallel-agents | plugin-cache | `openai-curated/superpowers/d6169bef/skills/dispatching-parallel-agents/SKILL.md` | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
+| documents | plugin-cache | `openai-primary-runtime/documents/26.630.12135/skills/documents/SKILL.md` | Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the final document. |
+| email | plugin-cache | `openai-curated/vercel/d6169bef/skills/email/SKILL.md` | Email sending integration guidance — Resend (native Vercel Marketplace) with React Email templates. Covers API setup, transactional emails, domain verification, and template patterns. Use when sending emails from a Vercel-deployed application. |
+| env-vars | plugin-cache | `openai-curated/vercel/d6169bef/skills/env-vars/SKILL.md` | Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration. |
+| executing-plans | plugin-cache | `openai-curated/superpowers/d6169bef/skills/executing-plans/SKILL.md` | Use when you have a written implementation plan to execute in a separate session with review checkpoints |
+| explore | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/explore/SKILL.md` | Use when a broad business creative brief needs the Creative Production Explore front door: a compact chooser for Positioning, Mood boards, Scenes, Offers, Ads, Shots, Logos, or active production Assets. |
+| fastapi-patterns | codex-skills | `fastapi-patterns/SKILL.md` | FastAPI backend engineering patterns for production APIs. Use when building, reviewing, or refactoring FastAPI routes, dependency injection, Pydantic v2 request/response models, async service/database boundaries, error handling, OpenAPI contracts, auth dependencies, middleware, lifespan setup, and pytest/httpx tests. |
+| fastapi-router-py | codex-skills | `fastapi-router-py/SKILL.md` | Create FastAPI routers following established patterns with proper authentication, response models, and HTTP status codes. |
+| find-skills | agents-skills | `find-skills/SKILL.md` | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill. |
+| finding-discovery | plugin-cache | `openai-curated/codex-security/d6169bef/skills/finding-discovery/SKILL.md` | Use when Codex is already in the finding-discovery phase of a security scan or the user explicitly asks to discover candidate security findings in a repository or code change. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans. |
+| finishing-a-development-branch | plugin-cache | `openai-curated/superpowers/d6169bef/skills/finishing-a-development-branch/SKILL.md` | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup |
+| fix | codex-skills | `fix/SKILL.md` | Use when you have lint errors, formatting issues, or before committing code to ensure it passes CI. |
+| fix-finding | plugin-cache | `openai-curated/codex-security/d6169bef/skills/fix-finding/SKILL.md` | Use when the user explicitly asks to fix and verify a validated or plausible security finding. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans. |
+| flutter-development | codex-skills | `flutter-development/SKILL.md` | Build beautiful cross-platform mobile apps with Flutter and Dart. Covers widgets, state management with Provider/BLoC, navigation, API integration, and material design. |
+| frontend-design | agents-skills | `frontend-design/SKILL.md` | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics. |
+| frontend-patterns | codex-skills | `frontend-patterns/SKILL.md` | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. |
+| frontend-skill | codex-skills | `frontend-skill/SKILL.md` | Use when the task asks for a visually strong landing page, website, app, prototype, demo, or game UI. This skill enforces restrained composition, image-led hierarchy, cohesive content structure, and tasteful motion while avoiding generic cards, weak branding, and UI clutter. |
+| full-output-enforcement | agents-skills | `full-output-enforcement/SKILL.md` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output. |
+| gather-business-context | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/gather-business-context/SKILL.md` | Gather business context from connected or provided sources so downstream analysis starts with the right framing. Use when an analytical question depends on missing context, such as what a metric means, what changed recently, or which sources should be checked. If the same prompt asks for diagnosis, recommendation, or a deliverable, gather context first and continue to the focused skill. |
+| geist | plugin-cache | `openai-curated/vercel/d6169bef/skills/geist/SKILL.md` | Expert guidance for Geist, Vercel's default typography system and font family for precise Next.js interfaces. Use when configuring Geist Sans, Geist Mono, or Geist Pixel, setting up font imports, or applying Vercel typography and aesthetic guidance. |
+| geistdocs | plugin-cache | `openai-curated/vercel/d6169bef/skills/geistdocs/SKILL.md` | Expert guidance for Geistdocs, Vercel's documentation template built with Next.js and Fumadocs — MDX authoring, configuration, AI chat, i18n, feedback, deployment. Use when creating documentation sites, configuring geistdocs, writing MDX content, or setting up docs infrastructure. |
+| generative-polish | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/generative-polish/SKILL.md` | Create publish-safe generative polish for business visuals. Use when the user asks to make a selected asset, social card, carousel, launch visual, chart card, or creative pack visually stronger while preserving exact text, data, logos, dimensions, safe zones, filenames, and review metadata. |
+| get-context | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/get-context/SKILL.md` | Mandatory design-brief gate for Product Design build and design workflows. Use before ideation, prototyping, image-to-code builds, redesigns, or product UI work to clarify missing product, visual, and interactivity context or play back the supplied brief before proceeding. |
+| gh-address-comments | plugin-cache | `openai-curated-remote/github/0.1.5/skills/gh-address-comments/SKILL.md` | Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement selected fixes. Use the GitHub app for PR metadata and flat comment reads, and use the bundled GraphQL script via `gh` whenever thread-level state, resolution status, or inline review context matters. |
+| gh-address-comments | plugin-cache | `openai-curated/github/d6169bef/skills/gh-address-comments/SKILL.md` | Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement selected fixes. Use the GitHub app for PR metadata and flat comment reads, and use the bundled GraphQL script via `gh` whenever thread-level state, resolution status, or inline review context matters. |
+| gh-fix-ci | codex-skills | `gh-fix-ci/SKILL.md` | Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL. |
+| gh-fix-ci | plugin-cache | `openai-curated-remote/github/0.1.5/skills/gh-fix-ci/SKILL.md` | Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Use the GitHub app from this plugin for PR metadata and patch context, and use `gh` for Actions check and log inspection before implementing any approved fix. |
+| gh-fix-ci | plugin-cache | `openai-curated/github/d6169bef/skills/gh-fix-ci/SKILL.md` | Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Use the GitHub app from this plugin for PR metadata and patch context, and use `gh` for Actions check and log inspection before implementing any approved fix. |
+| github | codex-skills | `github/SKILL.md` | Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries. |
+| github | plugin-cache | `openai-curated-remote/github/0.1.5/skills/github/SKILL.md` | Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow. |
+| github | plugin-cache | `openai-curated/github/d6169bef/skills/github/SKILL.md` | Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow. |
+| gpt-taste | agents-skills | `gpt-taste/SKILL.md` | Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing. |
+| graphify | codex-skills | `graphify/SKILL.md` | Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools. |
+| gsd-add-tests | codex-skills | `gsd-add-tests/SKILL.md` | Generate tests for a completed phase based on UAT criteria and implementation |
+| gsd-ai-integration-phase | codex-skills | `gsd-ai-integration-phase/SKILL.md` | Generate an AI-SPEC.md design contract for phases that involve building AI systems. |
+| gsd-audit-fix | codex-skills | `gsd-audit-fix/SKILL.md` | Autonomous audit-to-fix pipeline — find issues, classify, fix, test, commit |
+| gsd-audit-milestone | codex-skills | `gsd-audit-milestone/SKILL.md` | Audit milestone completion against original intent before archiving |
+| gsd-audit-uat | codex-skills | `gsd-audit-uat/SKILL.md` | Cross-phase audit of all outstanding UAT and verification items |
+| gsd-autonomous | codex-skills | `gsd-autonomous/SKILL.md` | Run all remaining phases autonomously — discuss→plan→execute per phase |
+| gsd-capture | codex-skills | `gsd-capture/SKILL.md` | Capture ideas, tasks, notes, and seeds to their destination |
+| gsd-cleanup | codex-skills | `gsd-cleanup/SKILL.md` | Archive accumulated phase directories from completed milestones |
+| gsd-code-review | codex-skills | `gsd-code-review/SKILL.md` | Review source files changed during a phase for bugs, security issues, and code quality problems |
+| gsd-complete-milestone | codex-skills | `gsd-complete-milestone/SKILL.md` | Archive completed milestone and prepare for next version |
+| gsd-config | codex-skills | `gsd-config/SKILL.md` | Configure GSD settings — workflow toggles, advanced knobs, integrations, and model profile |
+| gsd-debug | codex-skills | `gsd-debug/SKILL.md` | Systematic debugging with persistent state across context resets |
+| gsd-discuss-phase | codex-skills | `gsd-discuss-phase/SKILL.md` | Gather phase context through adaptive questioning before planning. |
+| gsd-docs-update | codex-skills | `gsd-docs-update/SKILL.md` | Generate or update project documentation verified against the codebase |
+| gsd-eval-review | codex-skills | `gsd-eval-review/SKILL.md` | Audit an executed AI phase's evaluation coverage and produce an EVAL-REVIEW.md remediation plan. |
+| gsd-execute-phase | codex-skills | `gsd-execute-phase/SKILL.md` | Execute all plans in a phase with wave-based parallelization |
+| gsd-explore | codex-skills | `gsd-explore/SKILL.md` | Socratic ideation and idea routing — think through ideas before committing to plans |
+| gsd-extract-learnings | codex-skills | `gsd-extract-learnings/SKILL.md` | Extract decisions, lessons, patterns, and surprises from completed phase artifacts |
+| gsd-fast | codex-skills | `gsd-fast/SKILL.md` | Execute a trivial task inline — no subagents, no planning overhead |
+| gsd-forensics | codex-skills | `gsd-forensics/SKILL.md` | Post-mortem investigation for failed GSD workflows — diagnoses what went wrong. |
+| gsd-graphify | codex-skills | `gsd-graphify/SKILL.md` | Build, query, and inspect the project knowledge graph in .planning/graphs/ |
+| gsd-health | codex-skills | `gsd-health/SKILL.md` | Diagnose planning directory health and optionally repair issues |
+| gsd-help | codex-skills | `gsd-help/SKILL.md` | Show available GSD commands and usage guide |
+| gsd-import | codex-skills | `gsd-import/SKILL.md` | Ingest external plans with conflict detection against project decisions before writing anything. |
+| gsd-inbox | codex-skills | `gsd-inbox/SKILL.md` | Triage and review open GitHub issues and PRs against project templates and contribution guidelines. |
+| gsd-ingest-docs | codex-skills | `gsd-ingest-docs/SKILL.md` | Bootstrap or merge a .planning/ setup from existing ADRs, PRDs, SPECs, and docs in a repo. |
+| gsd-manager | codex-skills | `gsd-manager/SKILL.md` | Interactive command center for managing multiple phases from one terminal |
+| gsd-map-codebase | codex-skills | `gsd-map-codebase/SKILL.md` | Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents |
+| gsd-milestone-summary | codex-skills | `gsd-milestone-summary/SKILL.md` | Generate a comprehensive project summary from milestone artifacts for team onboarding and review |
+| gsd-mvp-phase | codex-skills | `gsd-mvp-phase/SKILL.md` | Plan a phase as a vertical MVP slice — user story, SPIDR splitting, then plan-phase |
+| gsd-new-milestone | codex-skills | `gsd-new-milestone/SKILL.md` | Start a new milestone cycle — update PROJECT.md and route to requirements |
+| gsd-new-project | codex-skills | `gsd-new-project/SKILL.md` | Initialize a new project with deep context gathering and PROJECT.md |
+| gsd-ns-context | codex-skills | `gsd-ns-context/SKILL.md` | codebase intelligence \| map graphify docs learnings |
+| gsd-ns-ideate | codex-skills | `gsd-ns-ideate/SKILL.md` | exploration capture \| explore sketch spike spec capture |
+| gsd-ns-manage | codex-skills | `gsd-ns-manage/SKILL.md` | config workspace \| workstreams thread update ship inbox |
+| gsd-ns-project | codex-skills | `gsd-ns-project/SKILL.md` | project lifecycle \| milestones audits summary |
+| gsd-ns-review | codex-skills | `gsd-ns-review/SKILL.md` | quality gates \| code review debug audit security eval ui |
+| gsd-ns-workflow | codex-skills | `gsd-ns-workflow/SKILL.md` | workflow \| discuss plan execute verify phase progress |
+| gsd-pause-work | codex-skills | `gsd-pause-work/SKILL.md` | Create context handoff when pausing work mid-phase |
+| gsd-phase | codex-skills | `gsd-phase/SKILL.md` | CRUD for phases in ROADMAP.md — add, insert, remove, or edit phases |
+| gsd-plan-phase | codex-skills | `gsd-plan-phase/SKILL.md` | Create detailed phase plan (PLAN.md) with verification loop |
+| gsd-plan-review-convergence | codex-skills | `gsd-plan-review-convergence/SKILL.md` | Cross-AI plan convergence loop — replan with review feedback until no HIGH concerns remain. |
+| gsd-pr-branch | codex-skills | `gsd-pr-branch/SKILL.md` | Create a clean PR branch by filtering out .planning/ commits — ready for code review |
+| gsd-profile-user | codex-skills | `gsd-profile-user/SKILL.md` | Generate developer behavioral profile and create Claude-discoverable artifacts |
+| gsd-progress | codex-skills | `gsd-progress/SKILL.md` | Check progress, advance workflow, or dispatch freeform intent — the unified GSD situational command |
+| gsd-quick | codex-skills | `gsd-quick/SKILL.md` | Execute a quick task with GSD guarantees (atomic commits, state tracking) but skip optional agents |
+| gsd-resume-work | codex-skills | `gsd-resume-work/SKILL.md` | Resume work from previous session with full context restoration |
+| gsd-review | codex-skills | `gsd-review/SKILL.md` | Request cross-AI peer review of phase plans from external AI CLIs |
+| gsd-review-backlog | codex-skills | `gsd-review-backlog/SKILL.md` | Review and promote backlog items to active milestone |
+| gsd-secure-phase | codex-skills | `gsd-secure-phase/SKILL.md` | Retroactively verify threat mitigations for a completed phase |
+| gsd-settings | codex-skills | `gsd-settings/SKILL.md` | Configure GSD workflow toggles and model profile |
+| gsd-ship | codex-skills | `gsd-ship/SKILL.md` | Create PR, run review, and prepare for merge after verification passes |
+| gsd-sketch | codex-skills | `gsd-sketch/SKILL.md` | Sketch UI/design ideas with throwaway HTML mockups, or propose what to sketch next (frontier mode) |
+| gsd-spec-phase | codex-skills | `gsd-spec-phase/SKILL.md` | Clarify WHAT a phase delivers with ambiguity scoring; produces a SPEC.md before discuss-phase. |
+| gsd-spike | codex-skills | `gsd-spike/SKILL.md` | Spike an idea through experiential exploration, or propose what to spike next (frontier mode) |
+| gsd-stats | codex-skills | `gsd-stats/SKILL.md` | Display project statistics — phases, plans, requirements, git metrics, and timeline |
+| gsd-surface | codex-skills | `gsd-surface/SKILL.md` | Toggle which skills are surfaced — apply a profile, list, or disable a cluster without reinstall |
+| gsd-thread | codex-skills | `gsd-thread/SKILL.md` | Manage persistent context threads for cross-session work |
+| gsd-ui-phase | codex-skills | `gsd-ui-phase/SKILL.md` | Generate UI design contract (UI-SPEC.md) for frontend phases |
+| gsd-ui-review | codex-skills | `gsd-ui-review/SKILL.md` | Retroactive 6-pillar visual audit of implemented frontend code |
+| gsd-ultraplan-phase | codex-skills | `gsd-ultraplan-phase/SKILL.md` | [BETA] Offload plan phase to Claude Code's ultraplan cloud; review in browser and import back. |
+| gsd-undo | codex-skills | `gsd-undo/SKILL.md` | Safe git revert. Roll back phase or plan commits using the phase manifest with dependency checks. |
+| gsd-update | codex-skills | `gsd-update/SKILL.md` | Update GSD to latest version with changelog display |
+| gsd-validate-phase | codex-skills | `gsd-validate-phase/SKILL.md` | Retroactively audit and fill Nyquist validation gaps for a completed phase |
+| gsd-verify-work | codex-skills | `gsd-verify-work/SKILL.md` | Validate built features through conversational UAT |
+| gsd-workspace | codex-skills | `gsd-workspace/SKILL.md` | Manage GSD workspaces — create, list, or remove isolated workspace environments |
+| gsd-workstreams | codex-skills | `gsd-workstreams/SKILL.md` | Manage parallel workstreams — list, create, switch, status, progress, complete, and resume |
+| hatch-pet | codex-skills | `hatch-pet/SKILL.md` | Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Codex pet workflow, a non-pixel custom pet style, a prospect or company mascot pet, or a full 8x9 animated pet atlas with transparent unused cells, QA contact sheets, and pet.json packaging. This skill composes the installed $imagegen system skill for visual generation and uses bundled scripts for deterministic spritesheet assembly. |
+| high-end-visual-design | agents-skills | `high-end-visual-design/SKILL.md` | Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic. |
+| ideate | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/ideate/SKILL.md` | Generate image-based visual alternatives, remixes, or concept directions after Product Design get-context has confirmed the design brief. Use when the user asks for design variants, visual exploration, remixes, or image-generated approaches from provided context. |
+| image-to-code | agents-skills | `image-to-code/SKILL.md` | Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop. |
+| image-to-code | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/image-to-code/SKILL.md` | Implement a selected image, screenshot, mockup, or Image Gen reference as a faithful responsive frontend after Product Design get-context has confirmed the design brief. |
+| imagegen | codex-skills | `.system/imagegen/SKILL.md` | Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas. |
+| imagegen | codex-skills | `imagegen/SKILL.md` | Use when the user asks to generate or edit images via the OpenAI Image API (for example: generate image, edit/inpaint/mask, background removal or replacement, transparent background, product shots, concept art, covers, or batch variants); run the bundled CLI (`scripts/image_gen.py`) and require `OPENAI_API_KEY` for live calls. |
+| imagegen-frontend-mobile | agents-skills | `imagegen-frontend-mobile/SKILL.md` | Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code. |
+| imagegen-frontend-web | agents-skills | `imagegen-frontend-web/SKILL.md` | Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate. |
+| index | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/index/SKILL.md` | Route Data Analytics plugin-level requests and broad analytics work to the right focused workflow. Use when Data Analytics is at-mentioned, or for analytics requests involving data, metrics, dashboards, reports, charts, notebooks, spreadsheets, KPIs, market sizing, or semantic layers. |
+| index | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/index/SKILL.md` | Use to discover specific skills for the Product Design plugin, when it is at-mentioned directly, or for any mentions of potentially relevant work, including: UX research; product, screen, or flow audits; visual ideation; app or interface design, redesign, cloning, prototyping, or implementation from ideas, URLs, images, Figma, or code; design QA; and prototype sharing or deployment. |
+| industrial-brutalist-ui | agents-skills | `industrial-brutalist-ui/SKILL.md` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints. |
+| investigation-mode | plugin-cache | `openai-curated/vercel/d6169bef/skills/investigation-mode/SKILL.md` | Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung, broken, waiting) and systematically triages: runtime logs → workflow status → browser verify → deploy/env. Reports findings at every step. |
+| json-render | plugin-cache | `openai-curated/vercel/d6169bef/skills/json-render/SKILL.md` | AI chat response rendering guidance — handling UIMessage parts, tool call displays, streaming states, and structured data presentation. Use when building custom chat UIs, rendering tool results, or troubleshooting AI response display issues. |
+| jupyter-notebooks | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/jupyter-notebooks/SKILL.md` | Create, edit, or validate reproducible SQL or Python notebooks. Use for notebooks, SQL/Python scratchpads, reproducible exploration, audit trails, or runnable companions where the analysis should be reviewable or rerunnable. |
+| kpi-reporting | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/kpi-reporting/SKILL.md` | Prepare KPI readouts, scorecards, WBR/MBR/QBR updates, and executive summaries from quantitative business or product metrics; use when the task is to report status, compare against targets, explain validated drivers, and state operating implications. |
+| linear | plugin-cache | `openai-curated-remote/linear/5.0.0/skills/linear/SKILL.md` | Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear. |
+| linear | plugin-cache | `openai-curated/linear/d6169bef/skills/linear/SKILL.md` | Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear. |
+| logo-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/logo-explorer/SKILL.md` | Use when a brand brief needs identity concepts, wordmarks, lockups, identity-system routes, or a logo review board before vector production or final brand polish. |
+| market-sizing | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/market-sizing/SKILL.md` | Estimate market, segment, or opportunity size with transparent assumptions and uncertainty. Use for TAM/SAM/SOM, sizing scenarios, or comparing the scale of possible opportunities. |
+| marketplace | plugin-cache | `openai-curated/vercel/d6169bef/skills/marketplace/SKILL.md` | Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI. Use when consuming third-party services, building custom integrations, or managing marketplace resources on Vercel. |
+| metric-diagnostics | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/metric-diagnostics/SKILL.md` | Diagnose why a metric changed or differs from expectation. Use when the task is to identify likely drivers of a metric movement, anomaly, gap, or discrepancy. |
+| micro | plugin-cache | `openai-curated/vercel/d6169bef/skills/micro/SKILL.md` | Expert guidance for micro — asynchronous HTTP microservices framework by Vercel. Use when building lightweight HTTP servers, API endpoints, or microservices using the micro library. |
+| minimalist-ui | agents-skills | `minimalist-ui/SKILL.md` | Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. |
+| moodboard-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/moodboard-explorer/SKILL.md` | Use when a user asks Creative Production to generate several concept images, image options, visual directions, mood boards, visual territories, audience feel, campaign references, or brand direction before mood-board remixing, asset production, or polish. |
+| ncc | plugin-cache | `openai-curated/vercel/d6169bef/skills/ncc/SKILL.md` | Expert guidance for @vercel/ncc — a simple CLI for compiling Node.js modules into a single file with all dependencies included. Use when bundling serverless functions, CLI tools, or any Node.js project into a self-contained file. |
+| next-forge | plugin-cache | `openai-curated/vercel/d6169bef/skills/next-forge/SKILL.md` | next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages. |
+| nextjs | plugin-cache | `openai-curated/vercel/d6169bef/skills/nextjs/SKILL.md` | Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel. |
+| notion-knowledge-capture | plugin-cache | `openai-curated-remote/notion/0.1.5/skills/notion-knowledge-capture/SKILL.md` | Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking. |
+| notion-meeting-intelligence | plugin-cache | `openai-curated-remote/notion/0.1.5/skills/notion-meeting-intelligence/SKILL.md` | Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees. |
+| notion-research-documentation | plugin-cache | `openai-curated-remote/notion/0.1.5/skills/notion-research-documentation/SKILL.md` | Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations. |
+| notion-spec-to-implementation | plugin-cache | `openai-curated-remote/notion/0.1.5/skills/notion-spec-to-implementation/SKILL.md` | Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them. |
+| observability | plugin-cache | `openai-curated/vercel/d6169bef/skills/observability/SKILL.md` | Vercel Observability expert guidance — Drains (logs, traces, speed insights, web analytics), Web Analytics, Speed Insights, runtime logs, custom events, OpenTelemetry integration, and monitoring dashboards. Use when instrumenting, debugging, or optimizing application performance and user experience on Vercel. |
+| offer-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/offer-explorer/SKILL.md` | Use when a product, digital product, service, venue, experience, or campaign brief needs 25-family offer-led prompt exploration, contact sheets, review galleries, or coverage checks before remix, asset production, or polish. |
+| openai-docs | codex-skills | `.system/openai-docs/SKILL.md` | Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains. |
+| orca-cli | agents-skills | `orca-cli/SKILL.md` | Use the public `orca` CLI to operate Orca-managed worktrees, folder contexts, terminals, repos, automations, worktree comments, and the browser embedded inside the Orca app. Use when the user says "$orca-cli", "use orca cli", Orca worktree", "child worktree", "cardStatus", "spawn codex/claude in a worktree", read/wait/send Orca terminal", "terminal send", "Orca browser", or "control the browser inside Orca". Prefer this over raw `git worktree`, ad hoc PTYs, Playwright, or Computer Use when the task touches Orca-managed state. Use Computer Use for browser windows, webviews, or desktop UI outside Orca's embedded browser. |
+| orchestration | agents-skills | `orchestration/SKILL.md` | Use Orca orchestration for structured multi-agent coordination: threaded messages, blocking ask/reply flows, task dispatch, worker_done/escalation waits, task DAGs, decision gates, coordinator loops, or decomposing work across agents. Use `orca-cli` instead for full ownership handoffs, ordinary terminal control, lightweight terminal prompts, shell commands, Orca worktree management, reading or waiting on terminals, and automation of the browser embedded inside Orca. Use Computer Use for browser windows, webviews, Orca app UI, or desktop UI outside Orca's embedded browser. |
+| orchestration-system | repository | `orchestration-system/SKILL.md` | This skill should be used when the user asks to "orchestrate work", "coordinate agents", "split a complex task", "run parallel implementation", "design an orchestration system", "create an agent workflow", "manage multi-agent execution", or needs a structured plan for delegating, validating, and integrating complex engineering or research work. |
+| payments | plugin-cache | `openai-curated/vercel/d6169bef/skills/payments/SKILL.md` | Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK. Use when implementing payments, subscriptions, or processing transactions. |
+| pdf | plugin-cache | `openai-primary-runtime/pdf/26.630.12135/skills/pdf/SKILL.md` | Read, create, inspect, render, and verify PDF files where visual layout matters. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction. |
+| playwright-interactive | codex-skills | `playwright-interactive/SKILL.md` | Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging. |
+| plugin-creator | codex-skills | `.system/plugin-creator/SKILL.md` | Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow. |
+| positioning-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/positioning-explorer/SKILL.md` | Explore commercially useful positioning routes before visual generation. Use when the user needs to clarify audience, occasion, growth goal, proof, or market angle before mood boards, scenes, business assets, ads, menus, cards, one-pagers, listings, or social posts. |
+| Presentations | plugin-cache | `openai-primary-runtime/presentations/26.630.12135/skills/presentations/SKILL.md` | Create or edit PowerPoint or Google Slides decks |
+| product-business-analysis | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/product-business-analysis/SKILL.md` | Analyze product or business data to support a decision or recommendation. Use when a decision depends on metric-backed evidence, such as choosing a direction, prioritizing an opportunity, evaluating a change, segmenting users, sizing tradeoffs, or deciding what to do next. |
+| prototype | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/prototype/SKILL.md` | Route coded prototype requests after Product Design get-context has confirmed the design brief. Use for building prototypes from URLs, images, mockups, Figma, existing code, or ideas that need visual exploration before build. |
+| python-patterns | codex-skills | `python-patterns/SKILL.md` | > |
+| react-best-practices | plugin-cache | `openai-curated/vercel/d6169bef/skills/react-best-practices/SKILL.md` | React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, performance, and TypeScript patterns. |
+| receiving-code-review | plugin-cache | `openai-curated/superpowers/d6169bef/skills/receiving-code-review/SKILL.md` | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation |
+| redesign-existing-projects | agents-skills | `redesign-existing-projects/SKILL.md` | Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS. |
+| report-to-google-doc | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/build-report/report-to-google-doc/SKILL.md` | Narrow conversion skill. Invoke only when the user explicitly asks to convert an existing local or blob-hosted HTML analytics report into a Google Doc, DOCX, or shareable document. |
+| report-to-google-slides | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/build-report/report-to-google-slides/SKILL.md` | Narrow conversion skill. Invoke only when the user explicitly asks to convert an existing HTML analytics report into a native Google Slides deck. |
+| report-to-pdf | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/build-report/report-to-pdf/SKILL.md` | Narrow conversion skill. Invoke only when the user explicitly asks to convert an existing Data Analytics report, dashboard, or inline chart export into a PDF artifact. |
+| requesting-code-review | plugin-cache | `openai-curated/superpowers/d6169bef/skills/requesting-code-review/SKILL.md` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
+| research | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/research/SKILL.md` | Run fast, source-grounded UX research on the highest-signal problems users are experiencing with a user-specified digital product. Use when the user asks to research user pain, UX friction, onboarding issues, docs/help problems, developer experience friction, support pain, product workflow issues, or current user complaints for a named product. |
+| routing-middleware | plugin-cache | `openai-curated/vercel/d6169bef/skills/routing-middleware/SKILL.md` | Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when intercepting requests at the platform level. |
+| runtime-cache | plugin-cache | `openai-curated/vercel/d6169bef/skills/runtime-cache/SKILL.md` | Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching strategies beyond framework-level caching. |
+| satori | plugin-cache | `openai-curated/vercel/d6169bef/skills/satori/SKILL.md` | Expert guidance for Satori — Vercel's library that converts HTML and CSS to SVG, commonly used to generate dynamic OG images for Next.js and other frameworks. |
+| scene-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/scene-explorer/SKILL.md` | Explore business, service, customer, retail, and point-of-sale scenes that place a product, venue, service, or offer inside realistic commercial contexts. Use when the user wants scene prompts, product-in-environment exploration, service moments, consumer decision contexts, or reusable scene libraries before mood, style, asset, or polish work. |
+| screenshot | codex-skills | `screenshot/SKILL.md` | Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed. |
+| security-diff-scan | plugin-cache | `openai-curated/codex-security/d6169bef/skills/security-diff-scan/SKILL.md` | Use when the user asks for a security review of a pull request, commit, branch diff, working-tree patch, or other Git-backed change set. |
+| security-scan | plugin-cache | `openai-curated/codex-security/d6169bef/skills/security-scan/SKILL.md` | Use when the user asks for a repository-wide or scoped-path security scan. |
+| shadcn | codex-skills | `shadcn/SKILL.md` | Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for "shadcn init", "create an app with --preset", or "switch to --preset". |
+| shadcn | plugin-cache | `openai-curated/vercel/d6169bef/skills/shadcn/SKILL.md` | shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing shadcn, adding components, composing product UI, building custom registries, configuring themes, or troubleshooting component issues. |
+| share | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/share/SKILL.md` | Share a runnable prototype using the user's preferred deployment tool. |
+| shot-explorer | plugin-cache | `openai-curated-remote/creative-production/0.1.23/skills/shot-explorer/SKILL.md` | Explore selected-count camera-angle, crop, zoom, and macro-detail variants from an uploaded image. Use when the user wants a Shot Explorer, product shot variants, alternate views, closeups, pan/zoom exploration, or camera/composition options before polish. |
+| sign-in-with-vercel | plugin-cache | `openai-curated/vercel/d6169bef/skills/sign-in-with-vercel/SKILL.md` | Sign in with Vercel guidance — OAuth 2.0/OIDC identity provider for user authentication via Vercel accounts. Use when implementing user login with Vercel as the identity provider. |
+| Skill Development | codex-skills | `skill-development/SKILL.md` | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins. |
+| skill-creator | codex-skills | `.system/skill-creator/SKILL.md` | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations. |
+| skill-installer | codex-skills | `.system/skill-installer/SKILL.md` | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos). |
+| skill-publisher | repository | `skill-publisher/SKILL.md` | This skill should be used when the user asks to "publish a skill", "prepare skill for repository", "create GitHub repo for a skill", "package Codex skill", "update skill repo", "commit and push skill", or needs a repeatable workflow for validating and publishing Codex skill folders to a GitHub repository. |
+| speech | codex-skills | `speech/SKILL.md` | Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope. |
+| Spreadsheets | plugin-cache | `openai-primary-runtime/spreadsheets/26.630.12135/skills/spreadsheets/SKILL.md` | Use this skill when a user requests to create, modify, analyze, visualize, or work with spreadsheet files (`.xlsx`, `.xls`, `.csv`, `.tsv`) or Google Sheets-targeted spreadsheet artifacts with formulas, formatting, charts, tables, and recalculation. |
+| stitch-design-taste | agents-skills | `stitch-design-taste/SKILL.md` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance. |
+| stripe-best-practices | plugin-cache | `openai-curated/stripe/d6169bef/skills/stripe-best-practices/SKILL.md` | Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, Treasury financial accounts, integration surfaces (Checkout, Payment Element), and migrating from deprecated Stripe APIs. Use when building, modifying, or reviewing any Stripe integration — including accepting payments, building marketplaces, integrating Stripe, processing payments, setting up subscriptions, or creating connected accounts. |
+| subagent-driven-development | plugin-cache | `openai-curated/superpowers/d6169bef/skills/subagent-driven-development/SKILL.md` | Use when executing implementation plans with independent tasks in the current session |
+| supabase-postgres-best-practices | agents-skills | `supabase-postgres-best-practices/SKILL.md` | Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations. |
+| swr | plugin-cache | `openai-curated/vercel/d6169bef/skills/swr/SKILL.md` | SWR data-fetching expert guidance. Use when building React apps with client-side data fetching, caching, revalidation, mutations, optimistic UI, pagination, or infinite loading using the SWR library. |
+| systematic-debugging | plugin-cache | `openai-curated/superpowers/d6169bef/skills/systematic-debugging/SKILL.md` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
+| template-creator | plugin-cache | `openai-primary-runtime/template-creator/26.630.12135/skills/template-creator/SKILL.md` | Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a template using, from, or based on an attached Word document, PowerPoint presentation, or Excel workbook, or explicitly asks to edit or update a passed artifact-template skill. Do not use for one-off artifact creation from an existing template. |
+| test-driven-development | plugin-cache | `openai-curated/superpowers/d6169bef/skills/test-driven-development/SKILL.md` | Use when implementing any feature or bugfix, before writing implementation code |
+| threat-model | plugin-cache | `openai-curated/codex-security/d6169bef/skills/threat-model/SKILL.md` | Use when Codex is already in the threat-modeling phase of a security scan, the user explicitly invokes $threat-model, or the user explicitly asks to create, update, or persist a repository threat model. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans. |
+| track-findings | plugin-cache | `openai-curated/codex-security/d6169bef/skills/track-findings/SKILL.md` | Track validated Codex Security findings in Linear, Jira, GitHub issues, or draft GitHub security advisories. Use it for one finding or an explicitly selected batch of up to 25 findings tracked as Linear, Jira, or GitHub issues. Includes duplicate checks, exact previews, approval-gated writes, and readback. Do not use it for scans or fixes. |
+| triage-finding | plugin-cache | `openai-curated/codex-security/d6169bef/skills/triage-finding/SKILL.md` | Use when the user supplies or imports existing security findings, vulnerability reports, or security/vulnerability Jira/Linear tickets from scanners, advisories, GitHub, Atlassian Rovo, Linear, or similar backlog sources and wants static repo-impact triage. Do not use for discovery, duplicate-bug triage, validation, or fixes. |
+| turbopack | plugin-cache | `openai-curated/vercel/d6169bef/skills/turbopack/SKILL.md` | Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences. |
+| turborepo | plugin-cache | `openai-curated/vercel/d6169bef/skills/turborepo/SKILL.md` | Turborepo expert guidance. Use when setting up or optimizing monorepo builds, configuring task caching, remote caching, parallel execution, or the --affected flag for incremental CI. |
+| understand | agents-skills | `understand/SKILL.md` | Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships |
+| understand | understand-anything | `understand/SKILL.md` | Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships |
+| understand-chat | agents-skills | `understand-chat/SKILL.md` | Use when you need to ask questions about a codebase or understand code using a knowledge graph |
+| understand-chat | understand-anything | `understand-chat/SKILL.md` | Use when you need to ask questions about a codebase or understand code using a knowledge graph |
+| understand-dashboard | agents-skills | `understand-dashboard/SKILL.md` | Launch the interactive web dashboard to visualize a codebase's knowledge graph |
+| understand-dashboard | understand-anything | `understand-dashboard/SKILL.md` | Launch the interactive web dashboard to visualize a codebase's knowledge graph |
+| understand-diff | agents-skills | `understand-diff/SKILL.md` | Use when you need to analyze git diffs or pull requests to understand what changed, affected components, and risks |
+| understand-diff | understand-anything | `understand-diff/SKILL.md` | Use when you need to analyze git diffs or pull requests to understand what changed, affected components, and risks |
+| understand-domain | agents-skills | `understand-domain/SKILL.md` | Extract business domain knowledge from a codebase and generate an interactive domain flow graph. Works standalone (lightweight scan) or derives from an existing /understand knowledge graph. |
+| understand-domain | understand-anything | `understand-domain/SKILL.md` | Extract business domain knowledge from a codebase and generate an interactive domain flow graph. Works standalone (lightweight scan) or derives from an existing /understand knowledge graph. |
+| understand-explain | agents-skills | `understand-explain/SKILL.md` | Use when you need a deep-dive explanation of a specific file, function, or module in the codebase |
+| understand-explain | understand-anything | `understand-explain/SKILL.md` | Use when you need a deep-dive explanation of a specific file, function, or module in the codebase |
+| understand-knowledge | agents-skills | `understand-knowledge/SKILL.md` | Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering. |
+| understand-knowledge | understand-anything | `understand-knowledge/SKILL.md` | Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering. |
+| understand-onboard | agents-skills | `understand-onboard/SKILL.md` | Use when you need to generate an onboarding guide for new team members joining a project |
+| understand-onboard | understand-anything | `understand-onboard/SKILL.md` | Use when you need to generate an onboarding guide for new team members joining a project |
+| upgrade-stripe | plugin-cache | `openai-curated/stripe/d6169bef/skills/upgrade-stripe/SKILL.md` | Guide for upgrading Stripe API versions and SDKs |
+| url-to-code | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/url-to-code/SKILL.md` | Clone a live URL as a runnable frontend-only local app using Browser/Chrome source evidence after Product Design get-context has confirmed the design brief. |
+| user-context | plugin-cache | `openai-curated-remote/product-design/0.1.47/skills/user-context/SKILL.md` | Load or manage Product Design's saved user context. Use when the user asks to set up Product Design, get started, onboard, save product or design sources, see what Product Design remembers, update saved context, or remember Product Design preferences. Examples include product URLs, Figma files, screenshots, reference images, codebase paths, Storybook, tokens, design systems, brand assets, and general product/design notes. |
+| user-profile | codex-skills | `user-profile/SKILL.md` | Personal working profile for Hendr. Use when Codex should align with Hendr's communication style, engineering preferences, repository workflow, or repeated collaboration habits; also use when the user asks for a skill/profile "about me" or asks Codex to remember how they prefer work to be handled. |
+| using-git-worktrees | plugin-cache | `openai-curated/superpowers/d6169bef/skills/using-git-worktrees/SKILL.md` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback |
+| using-superpowers | plugin-cache | `openai-curated/superpowers/d6169bef/skills/using-superpowers/SKILL.md` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions |
+| v0-dev | plugin-cache | `openai-curated/vercel/d6169bef/skills/v0-dev/SKILL.md` | v0 by Vercel expert guidance. Use when discussing AI code generation, generating UI components from prompts, v0 CLI usage, v0 SDK/API integration, or integrating v0 into development workflows with GitHub and Vercel deployment. |
+| validate-data | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/validate-data/SKILL.md` | Validate whether an analysis is accurate, well-supported, and ready to share or use for a decision. Use when reviewing methodology, calculations, comparisons, visuals, caveats, or conclusions. |
+| validation | plugin-cache | `openai-curated/codex-security/d6169bef/skills/validation/SKILL.md` | Use when Codex is already in the validation phase of a security scan or the user explicitly asks to determine whether one or more candidate security findings are valid. Do not use as the primary trigger for full PR, commit, branch, patch, or repository scans. |
+| vercel-agent | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-agent/SKILL.md` | Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging. Use when configuring or understanding Vercel's AI development tools. |
+| vercel-api | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-api/SKILL.md` | Vercel app and REST API expert guidance. Use when the agent needs live access to Vercel projects, deployments, environment variables, domains, logs, or documentation through the connected Vercel app or REST API. |
+| vercel-cli | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-cli/SKILL.md` | Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, managing domains, or interacting with the Vercel platform from the command line. |
+| vercel-deploy | codex-skills | `vercel-deploy/SKILL.md` | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment". |
+| vercel-firewall | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-firewall/SKILL.md` | Vercel Firewall and security expert guidance. Use when configuring DDoS protection, WAF rules, rate limiting, bot filtering, IP allow/block lists, OWASP rulesets, Attack Challenge Mode, or any security configuration on the Vercel platform. |
+| vercel-flags | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-flags/SKILL.md` | Vercel Flags guidance — feature flags platform with unified dashboard, Flags Explorer, gradual rollouts, A/B testing, and provider adapters. Use when implementing feature flags, experimentation, or staged rollouts. |
+| vercel-functions | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-functions/SKILL.md` | Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing server-side code running on Vercel. |
+| vercel-queues | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-queues/SKILL.md` | Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async processing, fan-out patterns, or event-driven architectures. |
+| vercel-sandbox | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-sandbox/SKILL.md` | Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI-generated code in isolation. |
+| vercel-services | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-services/SKILL.md` | Vercel Services — deploy multiple services within a single Vercel project. Use for monorepo layouts or when combining a backend (Python, Go) with a frontend (Next.js, Vite) in one deployment. |
+| vercel-storage | plugin-cache | `openai-curated/vercel/d6169bef/skills/vercel-storage/SKILL.md` | Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when choosing, configuring, or using data storage with Vercel applications. |
+| verification | plugin-cache | `openai-curated/vercel/d6169bef/skills/verification/SKILL.md` | Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this working' signals. |
+| verification-before-completion | plugin-cache | `openai-curated/superpowers/d6169bef/skills/verification-before-completion/SKILL.md` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always |
+| visualize-data | plugin-cache | `openai-curated-remote/data-analytics/0.1.49-2470779139f2/skills/visualize-data/SKILL.md` | Design, build, revise, or QA quantitative charts and figures. Use when an analytical answer needs visual judgment, whether for an inline answer, report, dashboard, notebook, or artifact. |
+| workflow | plugin-cache | `openai-curated/vercel/d6169bef/skills/workflow/SKILL.md` | Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow. |
+| writing-plans | plugin-cache | `openai-curated/superpowers/d6169bef/skills/writing-plans/SKILL.md` | Use when you have a spec or requirements for a multi-step task, before touching code |
+| writing-skills | plugin-cache | `openai-curated/superpowers/d6169bef/skills/writing-skills/SKILL.md` | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
+| yeet | plugin-cache | `openai-curated-remote/github/0.1.5/skills/yeet/SKILL.md` | Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient. |
+| yeet | plugin-cache | `openai-curated/github/d6169bef/skills/yeet/SKILL.md` | Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient. |

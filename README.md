@@ -16,5 +16,6 @@ Validate the repository and included examples with:
 
 ```powershell
 python skill-publisher\scripts\validate_skill_repo.py .
+python skill-publisher\scripts\update_skill_index.py --check
 python orchestration-system\scripts\validate_orchestration_plan.py orchestration-system\examples\valid-plan.json
 ```
